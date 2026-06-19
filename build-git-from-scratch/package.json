@@ -1,0 +1,26 @@
+{
+  "name": "build-git-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "module",
+  "bin": {
+    "mygit": "./dist/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "commander": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
